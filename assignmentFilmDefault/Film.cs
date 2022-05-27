@@ -12,6 +12,7 @@ namespace assignmentFilmDefault
         public int RunTime { get; set; }
 
         public Genres Genre { get; set; }
+        public bool Geschikt { get; set; }
 
         public void PrintFilm()
         {
