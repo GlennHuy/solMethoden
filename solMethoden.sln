@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oefeningBasicsPasswordGener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignmentFilmDefault", "assignmentFilmDefault\assignmentFilmDefault.csproj", "{0FC8B06A-DD26-46A1-B9CD-77CF3C142281}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignmentMuziekEnMethoden", "assignmentMuziekEnMethoden\assignmentMuziekEnMethoden.csproj", "{4CB13256-03EE-4F83-80AF-308B9D2F2723}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0FC8B06A-DD26-46A1-B9CD-77CF3C142281}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC8B06A-DD26-46A1-B9CD-77CF3C142281}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC8B06A-DD26-46A1-B9CD-77CF3C142281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB13256-03EE-4F83-80AF-308B9D2F2723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB13256-03EE-4F83-80AF-308B9D2F2723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB13256-03EE-4F83-80AF-308B9D2F2723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB13256-03EE-4F83-80AF-308B9D2F2723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
