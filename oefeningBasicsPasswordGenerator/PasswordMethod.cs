@@ -1,0 +1,1 @@
+﻿Random generator = new Random();
