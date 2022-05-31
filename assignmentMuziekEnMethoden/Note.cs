@@ -8,39 +8,64 @@ namespace assignmentMuziekEnMethoden
 {
     internal class Note
     {
-        public void Do()
+        public void Do(int duration = 1000, int octave = 1)
         {
-            Console.Beep(264, 1000);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Do");
+            Console.ResetColor();
+            Console.Beep((253 * octave), duration);
         }
-        public void Re()
+        static void Re(int duration = 1000, int octave = 1)
         {
-            Console.Beep(297, 1000);
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("Re");
+            Console.ResetColor();
+            Console.Beep(297 * octave, duration);
         }
-        public void Mi()
+        void Mi(int duration = 1000, int octave = 1)
         {
-            Console.Beep(330, 1000);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Mi");
+            Console.ResetColor();
+            Console.Beep(330 * octave, duration);
         }
-        public void Fa()
+        void Fa(int duration = 1000, int octave = 1)
         {
-            Console.Beep(352, 1000);
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Fa");
+            Console.ResetColor();
+            Console.Beep(352 * octave, duration);
 
         }
-        public void Sol()
+        void Sol(int duration = 1000, int octave = 1)
         {
-            Console.Beep(396, 1000);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Sol");
+            Console.ResetColor();
+
+            Console.Beep(396 * octave, duration);
 
         }
-        public void La()
+        void La(int duration = 1000, int octave = 1)
         {
-            Console.Beep(440, 1000);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("La");
+            Console.ResetColor();
+            Console.Beep(440 * octave, duration);
         }
-        public void Si()
+        void Si(int duration = 1000, int octave = 1)
         {
-            Console.Beep(495, 1000);
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("Si");
+            Console.ResetColor();
+            Console.Beep(495 * octave, duration);
         }
-        public void Do2()
+        void Do2(int duration = 1000, int octave = 1)
         {
-            Console.Beep(528, 1000);
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("Do");
+            Console.ResetColor();
+            Console.Beep(528 * octave, duration);
         }
     }
 }

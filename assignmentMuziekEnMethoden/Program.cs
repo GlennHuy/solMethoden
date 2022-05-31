@@ -1,70 +1,98 @@
 ﻿using assignmentMuziekEnMethoden;
 
-void Do(int hertz, int duration)
+void Do(int duration=1000, int octave=1)
 {
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Do");
     Console.ResetColor();
-    Console.Beep(hertz, duration);
+    Console.Beep((253*octave), duration);
 }
-void Re()
+void Re(int duration=1000, int octave = 1)
 {
     Console.ForegroundColor = ConsoleColor.Magenta;
     Console.WriteLine("Re");
     Console.ResetColor();
-    Console.Beep(297, 1000);
+    Console.Beep(297*octave, duration);
 }
-void Mi()
+void Mi(int duration = 1000, int octave = 1)
 {
     Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine("Mi");
     Console.ResetColor();
-    Console.Beep(330, 1000);
+    Console.Beep(330*octave, duration);
 }
-void Fa()
+void Fa(int duration = 1000, int octave = 1)
 {
     Console.ForegroundColor = ConsoleColor.Cyan;
     Console.WriteLine("Fa");
     Console.ResetColor();
-    Console.Beep(352, 1000);
+    Console.Beep(352*octave, duration);
 
 }
-void Sol()
+void Sol(int duration=1000, int octave = 1)
 { 
     Console.ForegroundColor = ConsoleColor.Yellow;
     Console.WriteLine("Sol");
     Console.ResetColor();
 
-    Console.Beep(396, 1000);
+    Console.Beep(396*octave, duration);
 
 }
-void La()
+void La(int duration=1000, int octave = 1)
 {
     Console.ForegroundColor = ConsoleColor.Blue;
     Console.WriteLine("La");
     Console.ResetColor();
-    Console.Beep(440, 1000);
+    Console.Beep(440*octave, duration);
 }
-void Si()
+void Si(int duration=1000, int octave = 1)
 {
     Console.ForegroundColor = ConsoleColor.DarkBlue;
     Console.WriteLine("Si");
     Console.ResetColor();
-    Console.Beep(495, 1000);
+    Console.Beep(495*octave, duration);
 }
-void Do2()
+void Do2(int duration=1000, int octave = 1)
 {
     Console.ForegroundColor = ConsoleColor.DarkMagenta;
     Console.WriteLine("Do");
     Console.ResetColor();
-    Console.Beep(528, 1000);
+    Console.Beep(528*octave, duration);
 }
 
-Do(253, 500);
-Re();
-Mi();
-Fa();
-Sol();
-La();
-Si();
-Do2();
+static void ChooseSong();
+{
+
+}
+
+Re(250);
+Sol(250);
+La(250);
+Si(250);
+Si(250);
+Si(250);
+La(250);
+Si(250);
+Sol(250);
+Sol(250);
+
+
+Sol(250);
+La(250);
+Si(250);
+Do(250);
+Mi(250);
+Mi(250);
+Re(250);
+Do(250);
+Si(250);
+
+
+Do(500, 2);
+Re(500, 2);
+Mi(500, 2);
+Fa(500, 2);
+Sol(500, 2);
+La(500, 2);
+Si(500, 2);
+Do2(500, 2);
