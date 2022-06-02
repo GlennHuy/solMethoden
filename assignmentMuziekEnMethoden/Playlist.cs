@@ -21,7 +21,22 @@ namespace assignmentMuziekEnMethoden
             Console.WriteLine($"playing song: {input}");
         }
 
-        public void SpeelYouAreMySunshine()
+        public void DoReMi()
+        {
+            Log("Do Re Mi");
+            instance.Do();
+            instance.Re();
+            instance.Mi();
+            instance.Fa();
+            instance.Sol();
+            instance.La();
+            instance.Si();
+            instance.Do2();
+        }
+
+
+
+        public void YouAreMySunshine()
         {
             Log("You Are My Sunshine");
             instance.Re();
@@ -46,5 +61,6 @@ namespace assignmentMuziekEnMethoden
             instance.Do();
             instance.Si();
         }
+
     }
 }
